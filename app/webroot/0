@@ -1,0 +1,37 @@
+[28-Mar-2017 13:07:53 Asia/Tokyo] PHP Warning:  _cake_core_ cache was unable to write 'cake_dev_ja' to File cache in C:\inetpub\wwwroot\cakephp-2.9.6\lib\Cake\Cache\Cache.php on line 327
+[28-Mar-2017 13:07:53 Asia/Tokyo] PHP Warning:  C:\inetpub\wwwroot\cakephp-2.9.6\app\tmp\cache\persistent\ is not writable in C:\inetpub\wwwroot\cakephp-2.9.6\lib\Cake\Cache\Engine\FileEngine.php on line 385
+[28-Mar-2017 13:07:53 Asia/Tokyo] PHP Fatal error:  Uncaught CacheException: Cache engine "_cake_core_" is not properly configured. Ensure required extensions are installed, and credentials/permissions are correct in C:\inetpub\wwwroot\cakephp-2.9.6\lib\Cake\Cache\Cache.php:186
+Stack trace:
+#0 C:\inetpub\wwwroot\cakephp-2.9.6\lib\Cake\Cache\Cache.php(151): Cache::_buildEngine('_cake_core_')
+#1 C:\inetpub\wwwroot\cakephp-2.9.6\app\Config\core.php(376): Cache::config('_cake_core_', Array)
+#2 C:\inetpub\wwwroot\cakephp-2.9.6\lib\Cake\Core\Configure.php(72): include('C:\\inetpub\\wwwr...')
+#3 C:\inetpub\wwwroot\cakephp-2.9.6\lib\Cake\bootstrap.php(432): Configure::bootstrap(true)
+#4 C:\inetpub\wwwroot\cakephp-2.9.6\app\webroot\index.php(95): include('C:\\inetpub\\wwwr...')
+#5 {main}
+  thrown in C:\inetpub\wwwroot\cakephp-2.9.6\lib\Cake\Cache\Cache.php on line 186
+[28-Mar-2017 13:08:23 Asia/Tokyo] PHP Warning:  _cake_core_ cache was unable to write 'cake_dev_ja' to File cache in C:\inetpub\wwwroot\cakephp-2.9.6\lib\Cake\Cache\Cache.php on line 327
+[28-Mar-2017 13:08:23 Asia/Tokyo] PHP Warning:  C:\inetpub\wwwroot\cakephp-2.9.6\app\tmp\cache\persistent\ is not writable in C:\inetpub\wwwroot\cakephp-2.9.6\lib\Cake\Cache\Engine\FileEngine.php on line 385
+[28-Mar-2017 13:08:23 Asia/Tokyo] PHP Fatal error:  Uncaught CacheException: Cache engine "_cake_core_" is not properly configured. Ensure required extensions are installed, and credentials/permissions are correct in C:\inetpub\wwwroot\cakephp-2.9.6\lib\Cake\Cache\Cache.php:186
+Stack trace:
+#0 C:\inetpub\wwwroot\cakephp-2.9.6\lib\Cake\Cache\Cache.php(151): Cache::_buildEngine('_cake_core_')
+#1 C:\inetpub\wwwroot\cakephp-2.9.6\app\Config\core.php(376): Cache::config('_cake_core_', Array)
+#2 C:\inetpub\wwwroot\cakephp-2.9.6\lib\Cake\Core\Configure.php(72): include('C:\\inetpub\\wwwr...')
+#3 C:\inetpub\wwwroot\cakephp-2.9.6\lib\Cake\bootstrap.php(432): Configure::bootstrap(true)
+#4 C:\inetpub\wwwroot\cakephp-2.9.6\app\webroot\index.php(95): include('C:\\inetpub\\wwwr...')
+#5 {main}
+  thrown in C:\inetpub\wwwroot\cakephp-2.9.6\lib\Cake\Cache\Cache.php on line 186
+[28-Mar-2017 13:09:12 Asia/Tokyo] PHP Warning:  _cake_core_ cache was unable to write 'cake_dev_ja' to File cache in C:\inetpub\wwwroot\cakephp-2.9.6\lib\Cake\Cache\Cache.php on line 327
+[28-Mar-2017 13:09:12 Asia/Tokyo] PHP Warning:  C:\inetpub\wwwroot\cakephp-2.9.6\app\tmp\cache\persistent\ is not writable in C:\inetpub\wwwroot\cakephp-2.9.6\lib\Cake\Cache\Engine\FileEngine.php on line 385
+[28-Mar-2017 13:09:12 Asia/Tokyo] PHP Fatal error:  Uncaught CacheException: Cache engine "_cake_core_" is not properly configured. Ensure required extensions are installed, and credentials/permissions are correct in C:\inetpub\wwwroot\cakephp-2.9.6\lib\Cake\Cache\Cache.php:186
+Stack trace:
+#0 C:\inetpub\wwwroot\cakephp-2.9.6\lib\Cake\Cache\Cache.php(151): Cache::_buildEngine('_cake_core_')
+#1 C:\inetpub\wwwroot\cakephp-2.9.6\app\Config\core.php(376): Cache::config('_cake_core_', Array)
+#2 C:\inetpub\wwwroot\cakephp-2.9.6\lib\Cake\Core\Configure.php(72): include('C:\\inetpub\\wwwr...')
+#3 C:\inetpub\wwwroot\cakephp-2.9.6\lib\Cake\bootstrap.php(432): Configure::bootstrap(true)
+#4 C:\inetpub\wwwroot\cakephp-2.9.6\app\webroot\index.php(95): include('C:\\inetpub\\wwwr...')
+#5 {main}
+  thrown in C:\inetpub\wwwroot\cakephp-2.9.6\lib\Cake\Cache\Cache.php on line 186
+[28-Mar-2017 15:57:59 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Using $this when not in object context in C:\inetpub\wwwroot\cakephp-2.9.6\app\webroot\index2.php:9
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\cakephp-2.9.6\app\webroot\index2.php on line 9
