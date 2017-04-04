@@ -1,5 +1,5 @@
 <?php
-class BarcodeController extends AppController{
+class VialController extends AppController {
 
 	public $autoLayout = false;
 

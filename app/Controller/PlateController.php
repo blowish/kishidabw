@@ -1,5 +1,5 @@
 <?php
-class BarcodeController extends AppController{
+class PlateController extends AppController {
 
 	public $autoLayout = false;
 

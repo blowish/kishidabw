@@ -30,7 +30,7 @@
 <div class='header'>
 	<div class='navbar navbar-default navbar-inverse'>
 		<div class='logo'>
-			<a class="navbar-brand" href="<?php echo $this->Html->url('/TopPage', true); ?>">　InsightTool Table Search</a>
+			<a class="navbar-brand" href="<?php echo $this->Html->url('/AllSearch', true); ?>">　InsightTool Table Search</a>
 		</div>
 		<button class='navbar-toggle' data-target='#navbar-responsive-collapse' data-toggle='collapse' type='button'>
 			<span class='icon-bar'></span>

@@ -16,10 +16,17 @@
 				if ($request['plate_id'] != '') { $conditions['Plate.PLATE_ID like'] = '%'.$request['plate_id'].'%'; }
 				if ($request['well_id'] != '') { $conditions['Plate.WELL_ID like'] = '%'.$request['well_id'].'%'; }
 				if ($request['vial_id'] != '') { $conditions['Vial.VIAL_ID like'] = '%'.$request['vial_id'].'%'; }
+
+				//次の検索でCombiBarcodeモデルの結合を１回だけはずす。つまりCombiBarocode単体の検索となる
+				$this->CombiBarcode->unbindModel(array(
+						'hasOne' => array('Barcode', 'Vial', 'Plate')
+				));
+
 				$data = $this->CombiBarcode->find('all', array(
-					'conditions' => array(
-						$request['iro'] => $conditions,
-				)));
+						'conditions' => array(
+								$request['andor'] => $conditions
+						)
+				));
 				$this->set('data', $data);
 				$this->set('request', $request);
 
