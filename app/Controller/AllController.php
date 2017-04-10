@@ -1,5 +1,5 @@
 <?php
-class AllSearchController extends AppController {
+class AllController extends AppController {
 
 	public $autoLayout = false;
 
@@ -17,7 +17,7 @@ class AllSearchController extends AppController {
 		if ($request['well_id'] != '') { $conditions['Plate.WELL_ID like'] = '%'.$request['well_id'].'%'; }
 		if ($request['vial_id'] != '') { $conditions['Vial.VIAL_ID like'] = '%'.$request['vial_id'].'%'; }
 
-		//CombiBarcode単体の検索
+		//全てのテーブルを結合して検索 ※Model(CombiBarcode)で全てのテーブルを結合済み
 		$data = $this->CombiBarcode->find('all', array(
 				'conditions' => array(
 						$request['andor'] => $conditions,
